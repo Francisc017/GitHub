@@ -46,7 +46,7 @@ Proceso sin_titulo
 				csuf<-csuf+1;
 			FinSi
 		FinSi
-		escribir "Calificación del colegio ",ncolegio," : ", suma/nal;
+		escribir "CalificaciÃ³n del colegio ",ncolegio," : ", suma/nal;
 		ncolegio<-ncolegio+1;
 		si ((suma/nal)>mayor)entonces
 			mayor<-(suma/nal);
@@ -54,6 +54,9 @@ Proceso sin_titulo
 		si((suma/nal)<menor)Entonces
 			menor<-(suma/nal);
 		FinSi
+		bueno<-0
+		insuf<-0
+		suf<-0
 		contadore<-contadore+1;
 	hasta que contadore=nest;
 	escribir "Mejor puntaje de establecimiento: ", mayor;
